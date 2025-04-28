@@ -7,7 +7,9 @@
 
 #### 2.1 
 
-#### 2.2 
+#### 2.2 Posterior Estimate of Standardized Unemployment Rate in 2022
+
+<img src="docs/map.png" width="400" />
 
 #### 2.3
 
