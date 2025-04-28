@@ -5,9 +5,7 @@
 
 ### 2.  Data Exploration and Visualization
 
-#### 2.1 
-
-#### 2.2 Posterior Estimate of Standardized Unemployment Rate in 2022
+#### Posterior Estimate of Standardized Unemployment Rate in 2022
 
 <img src="docs/map.png" width="400" />
 
