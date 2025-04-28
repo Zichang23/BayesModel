@@ -11,7 +11,7 @@
 
 <img src="docs/map.png" width="400" />
 
-#### 2.3
+#### 2.3 Check Spatial Correlation
 
 ### 3. Bayesian Modeling
 
@@ -35,7 +35,9 @@ $$\phi_t \mathop\backsim \limits^{iid} N(0, \sigma^2_{\phi})$$
 
 $$\delta_{it} \mathop\backsim \limits^{iid} N(0, \sigma^2_{\delta})$$
 
-#### 3.2 
+#### 3.2 Check Space-Time Interaction
+
+<img src="docs/interact.png" width="400" />
 
 Besides, we will fit another three bayesian spatial-temporal model with different levels of interaction effects.
 
