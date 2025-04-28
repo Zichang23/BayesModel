@@ -33,15 +33,17 @@ $$\delta_{it} \mathop\backsim \limits^{iid} N(0, \sigma^2_{\delta})$$
 
 #### 3.2 Check Space-Time Interaction
 
+
+
 <img src="docs/interact.png" width="400" />
 
-Besides, we will fit another three bayesian spatial-temporal model with different levels of interaction effects.
+Besides, we will fit another three bayesian spatial-temporal model with different levels of interaction effects:
 
-Type II Model: 
+Type II Model: Temporal trends vary across areas but lack spatial structure.
 
-Type III Model: 
+Type III Model: Spatial patterns change over time but lack temporal structure.
 
-Type IV Model: 
+Type IV Model: Temporal trends vary across areas but are more likely to resemble those of neighboring areas.
 
 #### 3.3 Model Comparison
 
