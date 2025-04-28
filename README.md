@@ -41,4 +41,4 @@ Besides, we will fit another three bayesian spatial-temporal model with differen
 
 #### 3.3 Model Comparison
 
-
+<img src="docs/DIC.png" width="200" />
