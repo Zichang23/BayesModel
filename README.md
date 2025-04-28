@@ -2,6 +2,7 @@
 
 ### 1. Introduction
 
+Understanding unemployment trends over time is vital for shaping policies and addressing economic challenges. Bayesian modeling offers a powerful framework for this analysis by incorporating prior knowledge and quantifying uncertainty in a coherent manner. Unlike traditional methods, Bayesian approaches allow for dynamic adjustments as new data becomes available, enabling more accurate and flexible modeling of complex temporal and spatial patterns. This makes it an ideal choice for uncovering insights into unemployment trends and their underlying factors.
 
 ### 2.  Data Exploration and Visualization
 
@@ -31,13 +32,7 @@ $$\phi_t \mathop\backsim \limits^{iid} N(0, \sigma^2_{\phi})$$
 
 $$\delta_{it} \mathop\backsim \limits^{iid} N(0, \sigma^2_{\delta})$$
 
-#### 3.2 Check Space-Time Interaction
-
-
-
-<img src="docs/interact.png" width="400" />
-
-Besides, we will fit another three bayesian spatial-temporal model with different levels of interaction effects:
+Besides, we will fit another three bayesian spatial-temporal model with different levels of interaction effects for comparison.
 
 Type II Model: Temporal trends vary across areas but lack spatial structure.
 
@@ -45,7 +40,7 @@ Type III Model: Spatial patterns change over time but lack temporal structure.
 
 Type IV Model: Temporal trends vary across areas but are more likely to resemble those of neighboring areas.
 
-#### 3.3 Model Comparison
+#### 3.2 Model Comparison
 
 Given that the Type I Model has the lowest DIC, it provides a better fit compared to the other three models.
 
