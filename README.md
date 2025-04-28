@@ -9,13 +9,11 @@
 
 <img src="docs/map.png" width="400" />
 
-#### 2.3 Check Spatial Correlation
-
 ### 3. Bayesian Modeling
 
 #### 3.1 Model Specification
 
-Below is the model specification for a bayesian spatial-temporal model without interaction effect. 
+Below is the model specification for a bayesian spatial-temporal model without interaction effect (Type I Model). 
 
 $$Y_{it}|\theta_{it} \backsim Poisson(E_{it}\theta_{it})$$
 
@@ -39,6 +37,14 @@ $$\delta_{it} \mathop\backsim \limits^{iid} N(0, \sigma^2_{\delta})$$
 
 Besides, we will fit another three bayesian spatial-temporal model with different levels of interaction effects.
 
+Type II Model: 
+
+Type III Model: 
+
+Type IV Model: 
+
 #### 3.3 Model Comparison
+
+Given that the Type I Model has the lowest DIC, it provides a better fit compared to the other three models.
 
 <img src="docs/DIC.png" width="200" />
